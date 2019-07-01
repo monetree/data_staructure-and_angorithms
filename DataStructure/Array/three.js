@@ -14,7 +14,7 @@ function reverse(str){
         backward.push(str[i])
     }
     return backward.join('')
-}
+} // O(n)
 
 function reverse2(str){
     return str.split('').reverse().join('')

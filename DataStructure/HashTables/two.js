@@ -31,5 +31,7 @@ const firstRecurringChar2 = (arr) => {
     return undefined
 } //O(n)
 
-console.log(firstRecurringChar([2,5,5,2,3,5,1,2,4]))
-// console.log(firstRecurringChar2([10,5,1,2,3,5,1,2,4]))
+
+
+// console.log(firstRecurringChar([2,5,5,2,3,5,1,2,4]))
+console.log(firstRecurringChar2([2,5,5,2,3,5,1,2,4]))

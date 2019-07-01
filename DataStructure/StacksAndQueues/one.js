@@ -16,19 +16,19 @@ class Stack{
     peek(){
         return this.top;
     }
+
     push(value){
-        const newNode = new Node(value)
+        const newNode = new Node(value);
         if(this.length === 0){
             this.top = newNode;
             this.bottom = newNode;
         } else {
-            const HoldingPointer = this.top;
+            const holdingPointer = this.top;
             this.top = newNode;
-            this.top.next = HoldingPointer;
+            this.top.next = holdingPointer; 
         }
         this.length++;
         return this;
-
     }
     pop(){
         if(!this.top){

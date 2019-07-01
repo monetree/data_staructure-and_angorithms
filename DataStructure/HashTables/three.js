@@ -21,6 +21,7 @@ const checkCommonItem = (arr1, arr2) => {
     return false
 } // O(m*n)
 
+
 const checkCommonItem2 = (arr1, arr2) => {
     let map = {};
     for (i=0; i<arr1.length; i++){

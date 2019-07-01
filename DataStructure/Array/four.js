@@ -26,7 +26,7 @@ const arraySorter = (arr) => {
     return sortedArray
 }
 
-console.log(arraySorter([4,6,30,67,9,7]))
+// console.log(arraySorter([4,6,30,67,9,7]))
 
 
 const mergeSortedArrays2 = (arr1, arr2) => {
@@ -42,7 +42,6 @@ const mergeSortedArrays2 = (arr1, arr2) => {
         return arr1.sort(function(a, b){return a-b})
     
     while (array1Item || array2Item) {
-        console.log(array1Item, array2Item)
         if (!array2Item || array1Item < array2Item) {
             mergedArray.push(array1Item)
             array1Item = arr1[i];
@@ -58,7 +57,7 @@ const mergeSortedArrays2 = (arr1, arr2) => {
 
 
 
-// console.log(mergeSortedArrays1([0,3,4,31], [4,6,30,67,9]))
-// console.log(mergeSortedArrays2([0,3,4,31], [4,6,30,67,9,7]))
+console.log(mergeSortedArrays1([0,3,4,31], [4,6,30,67,9]))
+console.log(mergeSortedArrays2([0,3,4,31], [4,6,30,67,9]))
 
 

@@ -110,7 +110,8 @@ class LinkedList {
         }
         this.head.next = null;
         this.head = first;
-    }
+        return this;
+    } // O(n)
 }
 
 myLinkedList = new LinkedList(10)
